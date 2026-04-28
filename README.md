@@ -17,7 +17,7 @@ Publicación de aplicaciones web en IIS (On-Premises) y Azure App Service.
 
 ## 🎥 Video de evidencia
 
-> 📹 [Enlace al video narrado — pendiente de subir](#https://youtu.be/HljEBkYeBOM)
+> 📹 [Enlace al video narrado — pendiente de subir](https://youtu.be/HljEBkYeBOM)
 
 ---
 
