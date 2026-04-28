@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AppInventario — Práctica 3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">📦</span>
+        <span class="logo-text">AppInventario</span>
+      </div>
+      <nav>
+        <a href="#features">Características</a>
+        <a href="#status">Estado</a>
+        <span class="badge">v1.0.0</span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Sistema de Gestión de Inventario</h1>
+        <p>Aplicación web desplegada en IIS (on-premises) y Azure App Service como parte de la Práctica 3 de Despliegue de Software.</p>
+        <div class="hero-actions">
+          <a href="#status" class="btn btn-primary">Ver estado del sistema</a>
+          <a href="health/" class="btn btn-outline">Health check</a>
+        </div>
+      </div>
+      <div class="hero-graphic">
+        <div class="card-stack">
+          <div class="mock-card">
+            <span class="mock-label">Productos</span>
+            <span class="mock-value">1,248</span>
+          </div>
+          <div class="mock-card accent">
+            <span class="mock-label">Ventas hoy</span>
+            <span class="mock-value">$4,320,000</span>
+          </div>
+          <div class="mock-card">
+            <span class="mock-label">Tiendas</span>
+            <span class="mock-value">3</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h2>Características del sistema</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🏪</div>
+          <h3>Multi-tienda</h3>
+          <p>Gestión centralizada de múltiples puntos de venta con datos aislados por tienda.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Reportes en tiempo real</h3>
+          <p>Dashboards y métricas actualizadas para toma de decisiones.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Offline-first</h3>
+          <p>Funciona sin conexión a internet, ideal para zonas de conectividad limitada.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Seguridad multi-tenant</h3>
+          <p>Aislamiento total de datos entre organizaciones.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="status-section" id="status">
+      <h2>Estado del despliegue</h2>
+      <div class="status-grid">
+        <div class="status-card">
+          <div class="status-dot green"></div>
+          <div>
+            <strong>IIS (On-Premises)</strong>
+            <span>Activo — Puerto 8080</span>
+          </div>
+        </div>
+        <div class="status-card">
+          <div class="status-dot green"></div>
+          <div>
+            <strong>Azure App Service</strong>
+            <span>Activo — HTTPS Only</span>
+          </div>
+        </div>
+        <div class="status-card">
+          <div class="status-dot green"></div>
+          <div>
+            <strong>/health endpoint</strong>
+            <span>Respondiendo OK</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Práctica 3 — Despliegue de Software · Publicación en IIS y Azure App Service · 2026</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
